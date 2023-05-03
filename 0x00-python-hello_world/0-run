@@ -1,8 +1,5 @@
 #!/bin/bash
+
 PYFILE="$PYFILE"
- if [! -f "$PYFILE"];
-then echo "Error: $PYFILE does not exist"
-       exit 1
-fi
 
 python "$PYFILE"
