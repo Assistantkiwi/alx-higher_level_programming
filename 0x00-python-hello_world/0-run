@@ -1,5 +1,2 @@
 #!/bin/bash
-
-PYFILE="$PYFILE"
-
 python "$PYFILE"
